@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wikis",
+  "info": {
+    "name": "Wiki"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "setup": {
+      "type": "richtext",
+      "required": true
+    },
+    "game_ui": {
+      "type": "richtext"
+    }
+  }
+}
