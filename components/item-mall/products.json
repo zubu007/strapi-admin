@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_item_mall_products",
+  "info": {
+    "name": "Products",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "Additional_Image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Price": {
+      "type": "decimal",
+      "required": true
+    },
+    "Quantity": {
+      "type": "integer"
+    }
+  }
+}

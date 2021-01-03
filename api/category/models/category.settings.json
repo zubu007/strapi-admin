@@ -18,9 +18,8 @@
       "type": "text"
     },
     "products": {
-      "collection": "product",
       "via": "categories",
-      "dominant": true
+      "collection": "product"
     }
   }
 }

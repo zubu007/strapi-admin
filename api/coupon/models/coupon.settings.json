@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "orders",
+  "collectionName": "coupons",
   "info": {
-    "name": "Order"
+    "name": "Coupon"
   },
   "options": {
     "increments": true,
@@ -14,12 +14,9 @@
       "type": "string",
       "required": true
     },
-    "Address": {
-      "type": "text",
+    "Value": {
+      "type": "integer",
       "required": true
-    },
-    "Quantity": {
-      "type": "integer"
     }
   }
 }
