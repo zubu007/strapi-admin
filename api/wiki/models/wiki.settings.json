@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "wikis",
   "info": {
-    "name": "Wiki"
+    "name": "Wiki",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -16,6 +17,12 @@
     },
     "game_ui": {
       "type": "richtext"
+    },
+    "classes": {
+      "type": "string"
+    },
+    "items": {
+      "type": "string"
     }
   }
 }
