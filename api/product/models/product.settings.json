@@ -25,7 +25,7 @@
     "Quantity": {
       "type": "integer"
     },
-    "Image": {
+    "Thumbnail": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -40,6 +40,17 @@
       "collection": "category",
       "via": "products",
       "dominant": true
+    },
+    "Media": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
