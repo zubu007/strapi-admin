@@ -11,11 +11,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Quantity": {
+    "quantity": {
       "type": "integer"
     },
     "users_permissions_user": {

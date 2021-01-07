@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "reports",
+  "collectionName": "game_uis",
   "info": {
-    "name": "Report",
-    "description": ""
+    "name": "Game_UI"
   },
   "options": {
     "increments": true,
@@ -11,13 +10,8 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
-    },
     "description": {
-      "type": "text",
-      "required": true
+      "type": "richtext"
     }
   }
 }

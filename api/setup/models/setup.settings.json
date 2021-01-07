@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "reports",
+  "collectionName": "setups",
   "info": {
-    "name": "Report",
-    "description": ""
+    "name": "setup"
   },
   "options": {
     "increments": true,
@@ -11,13 +10,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true
+    "topic": {
+      "type": "string"
     },
     "description": {
-      "type": "text",
-      "required": true
+      "type": "richtext"
     }
   }
 }

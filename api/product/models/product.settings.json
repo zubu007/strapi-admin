@@ -11,21 +11,21 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "text"
     },
-    "Price": {
+    "price": {
       "type": "decimal",
       "required": true
     },
-    "Quantity": {
+    "quantity": {
       "type": "integer"
     },
-    "Thumbnail": {
+    "thumbnail": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -41,7 +41,7 @@
       "via": "products",
       "dominant": true
     },
-    "Media": {
+    "media": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
